@@ -15,9 +15,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.container {
+.form-sign {
     width: 928px;
     height: 641px;
     border-radius: 40px;
@@ -134,3 +135,15 @@ span {
     line-height: 25px;
     color: hsl(235, 18%, 26%);
 }
+.hide{
+    display: none;
+}
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
