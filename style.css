@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-*{
+
+* {
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
+
+body {
+
     background-color: hsl(235, 18%, 26%);
     height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +16,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     width: 928px;
     height: 641px;
     border-radius: 40px;
@@ -22,33 +26,38 @@ body{
     justify-content: space-between;
 
 }
-.text{
-    
+
+.text {
+
     width: 504px;
     display: flex;
     flex-direction: column;
     padding: 94px 60px;
 
 }
-.text h1{
+
+h1 {
     font-size: 56px;
     font-weight: 700;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
     color: hsl(234, 29%, 20%);
 }
-.img{
+
+.img {
     padding: 24px;
     width: 480px;
     height: 100%;
 
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
-li{
-    margin-top:10px ;
-    background: url(assets/images/icon-list.svg) left center no-repeat; 
+
+li {
+    margin-top: 10px;
+    background: url(assets/images/icon-list.svg) left center no-repeat;
     background-repeat: no-repeat;
     line-height: 24px;
     padding-left: 35px;
@@ -56,21 +65,24 @@ li{
 
 }
 
-p{
-  color:hsl(235, 18%, 26%) ;
-  margin-bottom: 10px;  
+p {
+    color: hsl(235, 18%, 26%);
+    margin-bottom: 10px;
 }
-form{
+
+form {
     margin: 30px 0;
     display: flex;
     flex-direction: column;
 
 }
-label{
+
+label {
     font-weight: 700;
     font-size: 12px;
 }
-input{
+
+input {
     width: 100%;
     height: 60px;
     padding: 16px;
@@ -79,7 +91,8 @@ input{
     border: 1px solid hsl(231, 7%, 60%);
 
 }
-button{
+
+button {
     border: none;
     font-weight: 700;
     height: 60px;
@@ -89,10 +102,35 @@ button{
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(234, 29%, 20%);
-    transition:  1s;
+    transition: 1s;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
     background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
     box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+}
+
+.success {
+    background-color: white;
+    width: 504px;
+    border-radius: 40px;
+}
+
+.success-content {
+    padding: 46px 64px 64px;
+}
+
+.success-title {
+    padding-top: 35px;
+    line-height: 55px;
+}
+
+span {
+    padding: 0 0 40px 0;
+}
+
+.success-p {
+    line-height: 25px;
+    color: hsl(235, 18%, 26%);
 }
