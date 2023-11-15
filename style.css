@@ -135,15 +135,20 @@ span {
     line-height: 25px;
     color: hsl(235, 18%, 26%);
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 .attribution {
     margin-top: 20px;
     font-size: 11px;
     text-align: center;
-  }
+    color: blue;        
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.attribution a {
+    color: hsl(18, 89%, 46%);
+    cursor: pointer;
+
+}
