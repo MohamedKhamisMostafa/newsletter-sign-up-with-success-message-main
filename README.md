@@ -11,8 +11,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MohamedKhamisMostafa/newsletter-sign-up-with-success-message-main/tree/main)
-- Live Site URL: [Add live site URL here](https://mohamedkhamismostafa.github.io/newsletter-sign-up-with-success-message-main/)
+- Solution URL: [https://github.com/MohamedKhamisMostafa/newsletter-sign-up-with-success-message-main/tree/main](https://github.com/MohamedKhamisMostafa/newsletter-sign-up-with-success-message-main/tree/main)
+- Live Site URL: [https://mohamedkhamismostafa.github.io/newsletter-sign-up-with-success-message-main/](https://mohamedkhamismostafa.github.io/newsletter-sign-up-with-success-message-main/)
 ### Author
 
 - GitHub - [Mohamed Khamis](https://github.com/MohamedKhamisMostafa)
